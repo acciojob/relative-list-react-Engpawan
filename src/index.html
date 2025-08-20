@@ -10,30 +10,28 @@
 <div id="root">
 </div>
 
-  <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
-<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-
-
-<script type="text/babel">
-  const root = ReactDOM.createRoot(document.getElementById("root"))
-
-  const =  RelativeList() =>
-  {
-    return(
-    <div>
-      <ol key="relativeList">
-        <li key = "relativeListItem1">Diya</li>
-        <li key = "relativeListItem2">Crackers</li>
-        <li key = "relativeListItem3">Gifts</li>
-        <li key = "relativeListItem4">Sweets</li>
-        <li key = "relativeListItem5">Light</li>
-      </ol>
-    </div>
-  )
-
-  }
-  root.render(RelativeList())
+ <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js">
     </script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script> 
+
+    <script type="text/babel">
+        const root = ReactDOM.createRoot(document.getElementById('root'))
+
+        const result = () =>{
+            return (
+                <div>
+                    <ol key="relativeList">
+                        <li key='relativeListItem1'>Light</li>
+                        <li key='relativeListItem2'>Diya</li>
+                        <li key='relativeListItem3'>Sweets</li>
+                        <li key='relativeListItem4'>Mithai</li>
+                        <li key='relativeListItem5'>Dress</li>
+                    </ol>
+                </div>
+            )
+        }
+        root.render(result())
+    </script> 
 </body>
 </html>
